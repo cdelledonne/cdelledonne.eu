@@ -26,6 +26,12 @@ Replace list-based home page with simple page
 cp themes/anatole/layouts/_default/single.html layouts/index.html
 ```
 
+Copy `sidebar.html` layout from theme default for customization:
+
+```sh
+cp themes/anatole/layouts/partials/sidebar.html layouts/partials/sidebar.html
+```
+
 Change fonts and dimensions:
 * https://github.com/lxndrblz/anatole/issues/77
 * https://github.com/lxndrblz/anatole/issues/87

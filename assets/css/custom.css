@@ -1,0 +1,24 @@
+.sidebar .logo-title {
+    padding-top: 90px;
+}
+
+.sidebar .logo-title .title img {
+    width: 200px;
+    border-radius: 20%;
+}
+
+.sidebar .logo-title .title a {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.post .post-content a {
+    letter-spacing: 0px;
+    /* color: #3a8776; */
+}
+
+/* .footer a { */
+    /* color: #2660AB; */
+    /* color: #237E47; */
+    /* color: #3a8776; */
+/* } */
