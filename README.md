@@ -3,6 +3,12 @@
 Generated with [Hugo](https://gohugo.io/) using the
 [Anatole](https://github.com/lxndrblz/anatole) theme.
 
+## Cloning
+
+```sh
+git clone --recurse-submodules git@github.com:cdelledonne/cdelledonne.eu.git
+```
+
 ## Initial Set-Up
 
 Add theme as submodule:
