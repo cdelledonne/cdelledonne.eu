@@ -31,15 +31,6 @@ p {
     font-size: 17px;
 }
 
-.sidebar .logo-title .title a {
-    font-size: 1.8rem;
-    letter-spacing: 1px;
-}
-
-.post .post-content a {
-    letter-spacing: 0px;
-}
-
 .tag,
 .category {
     font-size: 18px;
@@ -53,12 +44,21 @@ p {
     font-size: 1.5em;
 }
 
+.sidebar .logo-title .title a {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
 .sidebar .logo-title .description {
     font-size: 17px;
 }
 
 .sidebar .social-links {
     font-size: 16px;
+}
+
+.post .post-content a {
+    letter-spacing: 0px;
 }
 
 .post .post-title h1 {

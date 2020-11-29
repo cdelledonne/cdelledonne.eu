@@ -17,6 +17,20 @@
     border-radius: 20%;
 }
 
+@media screen and (max-width: 960px),
+print {
+    .sidebar .logo-title {
+        padding-top: 120px;
+    }
+
+    .content {
+        width: 100%;
+        margin-top: 520px;
+        margin-right: 0;
+    }
+
+}
+
 /* .footer a { */
     /* color: #2660AB; */
     /* color: #237E47; */
