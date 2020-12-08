@@ -4,7 +4,7 @@ title = "Research"
 
 ### Publications
 
-{{< publication
+{{< project
     title="Reliable Timekeeping for Intermittent Computing"
     author="Jasper de Winkel, Carlo Delle Donne, Kasım Sinan Yıldırım, Przemysław Pawełczak, and Josiah Hester"
     booktitle="ASPLOS '20: Proceedings of the Twenty-Fifth International Conference on Architectural Support for Programming Languages and Operating Systems"
@@ -15,7 +15,7 @@ title = "Research"
     video="https://www.youtube.com/watch?v=sOCKZ8zDV14"
     >}}
 
-{{< publication
+{{< project
     title="Dynamic Task-Based Intermittent Execution for Energy-Harvesting Devices"
     author="Amjad Yousef Majid, Carlo Delle Donne, Kiwan Maeng, Alexei Colin, Kasım Sinan Yıldırım, Brandon Lucia, and Przemysław Pawełczak"
     booktitle="ACM Transactions on Sensor Networks"
