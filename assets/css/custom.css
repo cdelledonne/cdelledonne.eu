@@ -1,6 +1,22 @@
+:root {
+    --link-color: #478473;
+}
+
+html[data-theme='dark'] {
+    --link-color: #7f864a;
+}
+
 .content {
     width: 55%;
     margin-right: 5%;
+}
+
+.page-top .nav a {
+    transition: color 0.125s ease-in;
+}
+
+.page-top .nav a:hover {
+    color: var(--link-color);
 }
 
 .page-top .nav a.current {
@@ -17,6 +33,40 @@
     border-radius: 20%;
 }
 
+.sidebar .social-links a {
+    transition: color 0.125s ease-in;
+}
+
+.sidebar .social-links a:hover {
+    color: var(--link-color);
+}
+
+.post .post-content a {
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: var(--link-color);
+    border-bottom: 2px solid var(--link-color);
+    background-image: linear-gradient(120deg, var(--link-color) 0%, var(--link-color) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    transition: all 0.125s ease-in;
+}
+
+.post .post-content a:hover {
+    color: var(--bg-color);
+    background-size: 100% 100%;
+}
+
+.footer a {
+    color: var(--link-color);
+}
+
+.footer a:hover {
+    color: var(--link-color);
+}
+
 @media screen and (max-width: 960px),
 print {
     .sidebar .logo-title {
@@ -31,8 +81,54 @@ print {
 
 }
 
-/* .footer a { */
-    /* color: #2660AB; */
-    /* color: #237E47; */
-    /* color: #3a8776; */
-/* } */
+/******************************************************************************
+ * Styles for custom shortcodes                                               *
+ ******************************************************************************/
+
+.project-entry {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0.75em;
+}
+
+.project-author {
+    margin-bottom: 0.5em;
+}
+
+.project-desc {
+    margin-bottom: 0.5em;
+}
+
+.project-booktitle {
+    font-size: 14px;
+    margin-bottom: 0.75em;
+}
+
+.post .post-content .buttons a {
+    color: var(--link-color);
+    transition: color 0.125s ease-in;
+}
+
+.post .post-content .buttons a:hover {
+    color: var(--bg-color);
+}
+
+.post .post-content .buttons .btn {
+    padding: 0.4em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-right: 5px;
+    border-radius: 0.6em;
+    border: 2px solid var(--link-color);
+    transition: background-size 0.125s ease-in;
+}
+
+.post .post-content .buttons .btn:hover {
+    border-radius: 0.6em;
+    border: 2px solid var(--link-color);
+}

@@ -1,0 +1,21 @@
+<div class="project-entry">
+
+    <div class="project-title">
+        {{ .Get "title" }}
+    </div>
+
+    <div class="project-desc">
+        {{ .Get "desc" }}
+    </div>
+
+    <div class="buttons">
+
+        {{ with .Get "code" }}
+        <a class="btn" href="{{ . }}" rel="external">
+            <span class="fas fa-laptop-code"></span>&nbsp;&nbsp;Code
+        </a>
+        {{ end }}
+
+    </div>
+
+</div>
