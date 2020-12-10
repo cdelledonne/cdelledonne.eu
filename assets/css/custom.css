@@ -12,16 +12,32 @@ html[data-theme='dark'] {
 }
 
 .page-top .nav a {
-    transition: color 0.125s ease-in;
+    padding-bottom: 5px;
+    background-image: linear-gradient(120deg, var(--link-color) 0%, var(--link-color) 100%);
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+    background-position: 0 100%;
+    transition: all 0.125s ease-in;
 }
 
 .page-top .nav a:hover {
     color: var(--link-color);
+    background-size: 100% 2px;
 }
 
 .page-top .nav a.current {
-    padding-bottom: 16px;
-    border-bottom: 2px solid var(--nav-text-color);
+    padding-bottom: 5px;
+    border-bottom: none;
+    background-image: linear-gradient(120deg, var(--blockquote-text-color) 0%, var(--blockquote-text-color) 100%);
+    background-size: 100% 2px;
+}
+
+.page-top .nav a.current:hover {
+    background-image: linear-gradient(120deg, var(--link-color) 0%, var(--link-color) 100%);
+}
+
+.page-top .nav .theme-switch-item a {
+    background-image: none;
 }
 
 .sidebar .logo-title {
