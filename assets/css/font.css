@@ -1,44 +1,44 @@
 @font-face {
     font-family: "PT Sans";
-    src: url("./fonts/PTSans-Regular.ttf") format("ttf");
+    src: url("fonts/PTSans-Regular.woff") format("woff");
 }
 
 @font-face {
     font-family: "PT Sans";
-    src: url("./fonts/PTSans-Bold.ttf") format("ttf");
+    src: url("fonts/PTSans-Bold.woff") format("woff");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "PT Sans";
-    src: url("./fonts/PTSans-Italic.ttf") format("ttf");
+    src: url("fonts/PTSans-Italic.woff") format("woff");
     font-style: italic;
 }
 
 @font-face {
     font-family: "PT Sans";
-    src: url("./fonts/PTSans-BoldItalic.ttf") format("ttf");
+    src: url("fonts/PTSans-BoldItalic.woff") format("woff");
     font-weight: bold;
     font-style: italic;
 }
 
 body {
     font-family: "PT Sans", sans-serif;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 p {
     line-height: 1.5em;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .tag,
 .category {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .page-top .nav {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .theme-switch-item {
@@ -51,11 +51,11 @@ p {
 }
 
 .sidebar .logo-title .description {
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .sidebar .social-links {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .post .post-content a {
@@ -63,31 +63,31 @@ p {
 }
 
 .post .post-title h1 {
-    font-size: 33px;
+    font-size: 35px;
 }
 
 .post .post-title h2 {
-    font-size: 31px;
+    font-size: 33px;
 }
 
 .post .post-title h3 {
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .post .post-content h3 {
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .post .post-content h4 {
-    font-size: 19px;
+    font-size: 21px;
 }
 
 .post .post-footer .meta .info {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .post .post-footer .tags {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .footer {
@@ -95,37 +95,41 @@ p {
 }
 
 .list-with-title {
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .list-with-title .listing-title {
-    font-size: 27px;
+    font-size: 29px;
 }
 
 .evernote a {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .about h3 {
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .links h3 {
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .read_more {
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .btn {
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    font-size: 16px;
 }
 
 .menu .btn-down li a {
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .menu .btn-down li a:hover {
-    font-size: 17px;
+    font-size: 19px;
 }
