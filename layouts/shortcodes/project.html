@@ -16,11 +16,16 @@
     </div>
     {{ end }}
 
-    {{ with .Get "booktitle" }}
-    <div class="project-booktitle">
+    {{ if or (.Get "booktitle") (.Get "date") }}
+    <div class="project-book-and-date">
+        {{ with .Get "booktitle" }}
         {{ . }}
         {{ with $.Params.date }}
-        &bull; {{ . }}
+        &bull;
+        {{ end }}
+        {{ end }}
+        {{ with .Get "date" }}
+        {{ . }}
         {{ end }}
     </div>
     {{ end }}
@@ -30,6 +35,12 @@
         {{ with .Get "doi" }}
         <a class="btn" href="{{ . }}" rel="external">
             <span class="fas fa-link"></span>&nbsp;&nbsp;DOI
+        </a>
+        {{ end }}
+
+        {{ with .Get "url" }}
+        <a class="btn" href="{{ . }}" rel="external">
+            <span class="fas fa-link"></span>&nbsp;&nbsp;URL
         </a>
         {{ end }}
 

@@ -23,3 +23,21 @@ title = "Research"
     doi="https://doi.org/10.1145/3360285"
     pdf="https://dl.acm.org/doi/pdf/10.1145/3360285"
     >}}
+
+### Preprints
+
+{{< project
+    title="Experimental demonstration of entanglement delivery using a quantum network stack"
+    author="Matteo Pompili, Carlo Delle Donne, Ingmar te Raa, Bart van der Vecht, Matthew Skrzypczyk, Guilherme Ferreira, Lisa de Kluijver, Arian J.  Stolk, Sophie L. N. Hermans, Przemysław Pawełczak, Wojciech Kozlowski, Ronald Hanson, and Stephanie Wehner"
+    date="November 2021"
+    url="https://arxiv.org/abs/2111.11332"
+    pdf="https://arxiv.org/pdf/2111.11332"
+    >}}
+
+{{< project
+    title="NetQASM -- A low-level instruction set architecture for hybrid quantum-classical programs in a quantum internet"
+    author="Axel Dahlberg, Bart van der Vecht, Carlo Delle Donne, Matthew Skrzypczyk, Ingmar te Raa, Wojciech Kozlowski, and Stephanie Wehner"
+    date="November 2021"
+    url="https://arxiv.org/abs/2111.09823"
+    pdf="https://arxiv.org/pdf/2111.09823"
+    >}}
