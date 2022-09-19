@@ -32,12 +32,6 @@
 
     <div class="buttons">
 
-        {{ with .Get "doi" }}
-        <a class="btn" href="{{ . }}" rel="external">
-            <span class="fas fa-link"></span>&nbsp;&nbsp;DOI
-        </a>
-        {{ end }}
-
         {{ with .Get "url" }}
         <a class="btn" href="{{ . }}" rel="external">
             <span class="fas fa-link"></span>&nbsp;&nbsp;URL
