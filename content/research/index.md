@@ -5,6 +5,15 @@ title = "Research"
 ### Publications
 
 {{< project
+    title="Experimental demonstration of entanglement delivery using a quantum network stack"
+    author="Matteo Pompili, Carlo Delle Donne, Ingmar te Raa, Bart van der Vecht, Matthew Skrzypczyk, Guilherme Ferreira, Lisa de Kluijver, Arian J.  Stolk, Sophie L. N. Hermans, Przemysław Pawełczak, Wojciech Kozlowski, Ronald Hanson, and Stephanie Wehner"
+    booktitle="npj Quantum Information"
+    date="October 2022"
+    url="https://doi.org/10.1038/s41534-022-00631-2"
+    pdf="https://www.nature.com/articles/s41534-022-00631-2.pdf"
+    >}}
+
+{{< project
     title="NetQASM—a low-level instruction set architecture for hybrid quantum–classical programs in a quantum internet"
     author="Axel Dahlberg, Bart van der Vecht, Carlo Delle Donne, Matthew Skrzypczyk, Ingmar te Raa, Wojciech Kozlowski, and Stephanie Wehner"
     booktitle="Quantum Science and Technology"
@@ -32,14 +41,4 @@ title = "Research"
     date="February 2020"
     url="https://doi.org/10.1145/3360285"
     pdf="https://dl.acm.org/doi/pdf/10.1145/3360285"
-    >}}
-
-### Preprints
-
-{{< project
-    title="Experimental demonstration of entanglement delivery using a quantum network stack"
-    author="Matteo Pompili, Carlo Delle Donne, Ingmar te Raa, Bart van der Vecht, Matthew Skrzypczyk, Guilherme Ferreira, Lisa de Kluijver, Arian J.  Stolk, Sophie L. N. Hermans, Przemysław Pawełczak, Wojciech Kozlowski, Ronald Hanson, and Stephanie Wehner"
-    date="November 2021"
-    url="https://arxiv.org/abs/2111.11332"
-    pdf="https://arxiv.org/pdf/2111.11332"
     >}}
