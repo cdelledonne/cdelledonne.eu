@@ -9,7 +9,7 @@ Generated with [Hugo](https://gohugo.io/) using the
 git clone --recurse-submodules git@github.com:cdelledonne/cdelledonne.eu.git
 ```
 
-## Initial Set-Up
+## Initial set-up
 
 Add theme as submodule:
 
@@ -17,7 +17,7 @@ Add theme as submodule:
 git submodule add git@github.com:lxndrblz/anatole.git themes/anatole
 ```
 
-## Theme Configuration
+## Theme configuration
 
 Replace list-based home page with simple page
 (https://github.com/lxndrblz/anatole/issues/2):
@@ -35,7 +35,3 @@ cp themes/anatole/layouts/partials/sidebar.html layouts/partials/sidebar.html
 Change fonts and dimensions:
 * https://github.com/lxndrblz/anatole/issues/77
 * https://github.com/lxndrblz/anatole/issues/87
-
-## Deployment
-
-TODO: mention how to use script.
