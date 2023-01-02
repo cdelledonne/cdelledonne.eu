@@ -17,6 +17,11 @@ Add theme as submodule:
 git submodule add git@github.com:lxndrblz/anatole.git themes/anatole
 ```
 
+## Usage
+
+To run and deploy the website, update Hugo modules, and for other management
+tasks, use the `run.sh` script. Use `./run.sh help` for more information.
+
 ## Theme configuration
 
 Replace list-based home page with simple page
