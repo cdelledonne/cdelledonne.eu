@@ -1,0 +1,17 @@
+[[main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[main]]
+name = "Projects"
+weight = 200
+identifier = "projects"
+url = "/projects/"
+
+[[main]]
+name = "Publications"
+weight = 300
+identifier = "publications"
+url = "/publications/"

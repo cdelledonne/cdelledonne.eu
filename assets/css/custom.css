@@ -1,17 +1,26 @@
 :root {
+    --text-color: #464646;
     --link-color: #478473;
 }
 
-html[data-theme='dark'] {
+:root.theme--dark {
+    --text-color: #cccccc;
     --link-color: #7f864a;
 }
 
-.content {
-    width: 55%;
-    margin-right: 5%;
+.body {
+    color: var(--text-color) !important;
 }
 
-.page-top .nav a {
+a {
+    color: var(--text-color) !important;
+}
+
+a:hover {
+    color: var(--link-color) !important;
+}
+
+.nav__list a {
     padding-bottom: 5px;
     background-image: linear-gradient(120deg, var(--link-color) 0%, var(--link-color) 100%);
     background-repeat: no-repeat;
@@ -20,48 +29,48 @@ html[data-theme='dark'] {
     transition: all 0.125s ease-in;
 }
 
-.page-top .nav a:hover {
+.nav__list a:hover {
     color: var(--link-color);
     background-size: 100% 2px;
 }
 
-.page-top .nav a.current {
-    padding-bottom: 5px;
-    border-bottom: none;
-    background-image: linear-gradient(120deg, var(--blockquote-text-color) 0%, var(--blockquote-text-color) 100%);
-    background-size: 100% 2px;
+.nav__link--active {
+    border-bottom: none !important;
+    padding-bottom: 5px !important;
+    background-image: linear-gradient(120deg, var(--text-color) 0%, var(--text-color) 100%) !important;
+    background-size: 100% 2px !important;
 }
 
-.page-top .nav a.current:hover {
-    background-image: linear-gradient(120deg, var(--link-color) 0%, var(--link-color) 100%);
+.nav__link--active:hover {
+    background-image: linear-gradient(120deg, var(--link-color) 0%, var(--link-color) 100%) !important;
 }
 
-.page-top .nav .theme-switch-item a {
+.nav__list .themeswitch a {
     background-image: none;
 }
 
-.sidebar .logo-title {
-    padding-top: 90px;
-}
-
-.sidebar .logo-title .title img {
+.sidebar__introduction-profileimage {
     width: 200px;
-    border-radius: 20%;
+    height: 200px;
 }
 
-.sidebar .social-links a {
+.sidebar a {
     transition: color 0.125s ease-in;
 }
 
-.sidebar .social-links a:hover {
+.sidebar a:hover {
     color: var(--link-color);
 }
 
-.post .post-content a {
+.post__content {
+    margin-right: 5%;
+}
+
+.post__content a {
     padding-top: 2px;
     padding-left: 2px;
     padding-right: 2px;
-    color: var(--link-color);
+    color: var(--link-color) !important;
     border-bottom: 2px solid var(--link-color);
     background-image: linear-gradient(120deg, var(--link-color) 0%, var(--link-color) 100%);
     background-repeat: no-repeat;
@@ -70,13 +79,13 @@ html[data-theme='dark'] {
     transition: all 0.125s ease-in;
 }
 
-.post .post-content a:hover {
-    color: var(--bg-color);
+.post__content a:hover {
+    color: var(--bg-color) !important;
     background-size: 100% 100%;
 }
 
 .footer a {
-    color: var(--link-color);
+    color: var(--link-color) !important;
 }
 
 .footer a:hover {
@@ -102,49 +111,49 @@ print {
  ******************************************************************************/
 
 .project-entry {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 5ex;
+    margin-bottom: 5ex;
 }
 
 .project-title {
-    font-size: 22px;
     font-weight: bold;
-    margin-bottom: 5pt;
+    margin-bottom: 1ex;
 }
 
 .project-author {
-    margin-bottom: 5pt;
+    margin-bottom: 1ex;
 }
 
 .project-desc {
-    margin-bottom: 5pt;
+    margin-bottom: 1ex;
 }
 
 .project-book-and-date {
-    margin-bottom: 5pt;
+    margin-bottom: 1ex;
 }
 
-.post .post-content .buttons a {
+.post__content .buttons {
+    margin-top: 2.5ex;
+}
+
+.post__content .buttons a {
     color: var(--link-color);
     transition: color 0.125s ease-in;
 }
 
-.post .post-content .buttons a:hover {
+.post__content .buttons a:hover {
     color: var(--bg-color);
 }
 
-.post .post-content .buttons .btn {
-    margin-top: 5pt;
-    padding: 0.4em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    margin-right: 5px;
+.post__content .buttons .btn {
+    margin-right: 0.5em;
+    padding: 0.4em 0.8em;
     border-radius: 0.6em;
     border: 2px solid var(--link-color);
     transition: background-size 0.125s ease-in;
 }
 
-.post .post-content .buttons .btn:hover {
+.post__content .buttons .btn:hover {
     border-radius: 0.6em;
     border: 2px solid var(--link-color);
 }

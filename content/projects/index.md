@@ -2,21 +2,23 @@
 title = "Projects"
 +++
 
-### Open-Source Projects
-
 {{< project
-    title="Vim-CMake"
+    title="Vim-CMake (personal foss project)"
     desc="Vim/Neovim plugin for working with CMake projects"
     code="https://github.com/cdelledonne/vim-cmake"
     >}}
 
 {{< project
-    title="Lean LaTeX résumé class"
+    title="Vim-UTest (personal foss project)"
+    desc="Vimscript unit testing plugin with mocking support"
+    code="https://github.com/cdelledonne/vim-utest"
+    >}}
+
+{{< project
+    title="Lean LaTeX résumé class (personal foss project)"
     desc="LaTeX class to easily write lean résumés using our favorite typesetting language"
     code="https://github.com/cdelledonne/llresume"
     >}}
-
-### Research Projects
 
 {{< project
     title="QNodeOS — OS for quantum network nodes"

@@ -1,0 +1,8 @@
+baseURL = "https://cdelledonne.eu/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Carlo Delle Donne"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT=true

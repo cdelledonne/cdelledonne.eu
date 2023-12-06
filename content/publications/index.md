@@ -1,8 +1,6 @@
 +++
-title = "Research"
+title = "Publications"
 +++
-
-### Publications
 
 {{< project
     title="Experimental demonstration of entanglement delivery using a quantum network stack"
